@@ -1,13 +1,7 @@
 /* Cascading Style Sheet */
 /* 선택자(selector) */
 
-.blind {
-    position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
+
 
 #header-center {
     margin: 0 auto;
@@ -16,16 +10,25 @@
 
 #header-search > h1 {
     width: 198px;
+    height: 48px;
     display: inline-block;
     background-image: url(./sp_search.png)
+    background-position: -4px -10px;
+    text-indent: 10px;
 }
 
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
 /*
 #header-center h1 {
   자손 선택자
 }
 */
-
 
 #header-search fieldset {
     width: 520px;
