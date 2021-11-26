@@ -14,9 +14,8 @@
     width: 1080px;
 }
 
-#header-search h1 {
+#header-search > h1 {
     width: 198px;
-    height: 48px;
     display: inline-block;
     background-image: url(./sp_search.png)
 }
@@ -26,9 +25,7 @@
   자손 선택자
 }
 */
-#header-search h2 {
-    display: none;
-}
+
 
 #header-search fieldset {
     width: 520px;
